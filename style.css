@@ -31,12 +31,17 @@ body{
 }
 
 #carone{
-    height: 70vh;
-    
+    height: 90vh;
+    object-fit: cover;
+    float: left;
+}
+
+#carone:hover{
+    opacity: 0.9;
 }
 
 #par1{
-    height: 30vh;
+    height: auto;
 }
 
 #par1 .col-8 .h2{
@@ -51,6 +56,10 @@ body{
     justify-content: space-around;
     align-items: start;
     flex-wrap: wrap;
+}
+
+.img1 img:hover{
+    opacity: 0.7;
 }
 
 #sec{
@@ -107,7 +116,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?t=st=1731562196~exp=1731565796~hmac=4df74a828b730c516ca23fcea09c1c08deb2332139a4436481295df5b66efda3&w=740');
+    background-image: url('./images/couple7.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -145,7 +154,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?t=st=1731562196~exp=1731565796~hmac=4df74a828b730c516ca23fcea09c1c08deb2332139a4436481295df5b66efda3&w=740');
+    background-image: url('./images/men3.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -170,7 +179,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?t=st=1731562196~exp=1731565796~hmac=4df74a828b730c516ca23fcea09c1c08deb2332139a4436481295df5b66efda3&w=740');
+    background-image: url('./images/fam3.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -218,21 +227,7 @@ body{
     flex: 0 0 auto;
 }
 
-.sec4{
-    background-color: black;
-    height: auto;
-}
 
-.par4{
-    color: whitesmoke;
-}
-
-.par4 a{
-    color: white;
-    text-decoration: none;
-    list-style: none;
-    margin: 15px 10px 15px 0;
-}
 
 
 

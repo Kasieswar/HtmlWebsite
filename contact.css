@@ -1,15 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,800&display=swap');
+
+/*.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
 .contact{
     height: 60vh;
-    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149050921.jpg?t=st=1731485273~exp=1731488873~hmac=b6480d847e013405b456935722b674ac64ddd7d7ccfec3532c8ecb5d5fba9948&w=740');
+    background-image: url('./images/contactbg.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    color: black;
+}
+
+.text{
+    color: whitesmoke;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .text h2{
@@ -28,11 +69,19 @@
 }
 
 .text1 h3{
-    font-size: 2.5em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3em;
     padding-bottom: 30px;
 }
 
 .text1 p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.2em;
     margin: 2px;
     padding-bottom: 30px;
@@ -43,12 +92,19 @@
 }
 
 .text2 h4{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     padding-top: 20px;
     font-size: 1.5em;
     
 }
 
 .text2 p{
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.0em;
     margin: 2px;
 }
@@ -72,18 +128,14 @@
     box-shadow: 0 0 10px black;
 }
 
-.sec4{
-    background-color: black;
-    height: 30vh;
+.imgflex{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
 }
 
-.par4{
-    color: whitesmoke;
-}
-
-.par4 a{
-    color: white;
-    text-decoration: none;
-    list-style: none;
-    margin: 15px 10px 15px 0;
+.imgflex img{
+    max-width: 100%;
+    height: auto;
+    flex: 0 0 auto;
 }
