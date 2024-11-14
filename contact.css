@@ -1,0 +1,89 @@
+.contact{
+    height: 60vh;
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149050921.jpg?t=st=1731485273~exp=1731488873~hmac=b6480d847e013405b456935722b674ac64ddd7d7ccfec3532c8ecb5d5fba9948&w=740');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.text h2{
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.text1{
+    color: black;
+}
+
+.text1 h3{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+
+.text1 p{
+    font-size: 1.2em;
+    margin: 2px;
+    padding-bottom: 30px;
+}
+
+.text2{
+    color: black;
+}
+
+.text2 h4{
+    padding-top: 20px;
+    font-size: 1.5em;
+    
+}
+
+.text2 p{
+    font-size: 1.0em;
+    margin: 2px;
+}
+
+
+.form2{
+    padding-bottom: 60px;
+}
+
+.bt{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+.bt:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+
+.sec4{
+    background-color: black;
+    height: 30vh;
+}
+
+.par4{
+    color: whitesmoke;
+}
+
+.par4 a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 10px 15px 0;
+}

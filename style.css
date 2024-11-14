@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,800&display=swap');
+
+/*.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+}
+
+#carone{
+    height: 80vh;
+    
+}
+
+#par1{
+    height: 30vh;
+}
+
+#par1 .col-8 .h2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.img1{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+#sec{
+    height: 500px;
+}
+
+#par2{
+    height: 60vh;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/silhouettes-couple-standing-evening-lights_8353-1692.jpg?t=st=1731399075~exp=1731402675~hmac=c4b2c25f8d6508eb7ba165174be325881a58a50bb38bc8de1c5c36267f4571a4&w=740');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+#par2 .col-8 .h2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.blog1 h2{
+    padding: 25px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.blog1 h3{
+    padding-bottom: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.blog2 .image1{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative; 
+}
+
+.blog2 .image1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?t=st=1731562196~exp=1731565796~hmac=4df74a828b730c516ca23fcea09c1c08deb2332139a4436481295df5b66efda3&w=740');
+    background-size: cover;
+    background-position: center;
+}
+
+.blog2 .image1:hover::before{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.text-con{
+    margin-top: 50px;
+    font-size: 16px;
+    color: black;
+}
+
+.text-con h5{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.blog2 .image2{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative; 
+}
+
+.blog2 .image2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?t=st=1731562196~exp=1731565796~hmac=4df74a828b730c516ca23fcea09c1c08deb2332139a4436481295df5b66efda3&w=740');
+    background-size: cover;
+    background-position: center;
+}
+
+.blog2 .image2:hover::before{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.blog2 .image3{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative; 
+}
+
+.blog2 .image3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?t=st=1731562196~exp=1731565796~hmac=4df74a828b730c516ca23fcea09c1c08deb2332139a4436481295df5b66efda3&w=740');
+    background-size: cover;
+    background-position: center;
+}
+
+.blog2 .image3:hover::before{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+#sec1{
+    background-color: aquamarine;
+}
+
+#par3 h2{
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bt{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: auto;
+    width: 200px;
+}
+
+.bt:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+
+.imgflex{
+    padding: 0;
+    margin: 0;
+}
+
+.sec4{
+    background-color: black;
+    height: 30vh;
+}
+
+.par4{
+    color: whitesmoke;
+}
+
+.par4 a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 10px 15px 0;
+}
+
+
+
