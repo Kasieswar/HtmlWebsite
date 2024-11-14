@@ -207,13 +207,20 @@ body{
 }
 
 .imgflex{
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+.imgflex img{
+    max-width: 100%;
+    height: auto;
+    flex: 0 0 auto;
 }
 
 .sec4{
     background-color: black;
-    height: 30vh;
+    height: auto;
 }
 
 .par4{
