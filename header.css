@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
 
 
 *{
@@ -11,17 +11,14 @@ body{
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-family: "Faculty Glyphic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
+    
 
 .top{
     background-color: rgb(88, 255, 227);
     color: black;
     border-radius: 50%;
-    height: 30px;
+    height: 32px;
     width: 30px;
     position: fixed;
     bottom: 0;
