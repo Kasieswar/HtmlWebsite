@@ -8,29 +8,26 @@
     font-style: normal;
   }
 
-
 font-family: "Playfair Display", serif;
 font-optical-sizing: auto;
 font-weight: 800;
 font-style: normal;
 
-
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;*/
-
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: "Faculty Glyphic", sans-serif;
-    font-weight: 400;
+    
 }
 
 #carone{
@@ -47,12 +44,7 @@ body{
     height: auto;
 }
 
-#par1 .col-8 .h2{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-}
+
 
 .img1{
     display: flex;
@@ -81,27 +73,16 @@ body{
     
 }
 
-#par2 .col-8 .h2{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-}
+
 
 .blog1 h2{
     padding: 25px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
+    
 }
 
 .blog1 h3{
     padding-bottom: 30px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+    
 }
 
 .blog2 .image1{
@@ -136,12 +117,7 @@ body{
     color: black;
 }
 
-.text-con h5{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
+
 
 .blog2 .image2{
     height: 300px;
