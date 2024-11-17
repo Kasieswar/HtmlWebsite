@@ -20,6 +20,7 @@ font-style: normal;
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -49,6 +50,8 @@ body{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
+    max-width: 1000px;
+    width: 100%;
 }
 
 .text h2{
@@ -64,6 +67,7 @@ body{
 
 .text1{
     color: black;
+    padding: 30px;
 }
 
 .text1 h3{
@@ -107,9 +111,19 @@ body{
     margin: 2px;
 }
 
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .form2{
     padding-bottom: 60px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
 }
 
 .bt{
@@ -118,6 +132,7 @@ body{
     border-radius: 10px;
     height: 40px;
     width: 150px;
+    border: none;
 }
 
 .bt:hover{
@@ -129,6 +144,8 @@ body{
 .imgflex{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
     overflow-x: hidden;
 }
 
@@ -136,4 +153,90 @@ body{
     max-width: 100%;
     height: auto;
     flex: 0 0 auto;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .text h2 {
+        font-size: 2.5em;
+    }
+
+    .text1 h3 {
+        font-size: 2.5em;
+    }
+
+    .text1 p {
+        font-size: 1.1em;
+    }
+
+    .form-floating input,
+    .form-floating textarea {
+        font-size: 1em;
+    }
+
+    .form1 {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text h2 {
+        font-size: 2em;
+    }
+
+    .text1 h3 {
+        font-size: 2em;
+    }
+
+    .text1 p {
+        font-size: 1.0em;
+    }
+
+    .imgflex img {
+        height: 150px;
+    }
+
+    .form-floating {
+        margin-bottom: 15px;
+    }
+
+    .form1 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+
+    .text h2 {
+        font-size: 1.8em;
+    }
+
+    .text1 h3 {
+        font-size: 1.8em;
+    }
+
+    .text1 p {
+        font-size: 1em;
+    }
+
+    .form-floating input,
+    .form-floating textarea {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .bt {
+        width: 100%;
+        height: 45px;
+        font-size: 1.1em;
+    }
+
+    .imgflex img {
+        height: 120px;
+    }
 }

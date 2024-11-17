@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,800&display=swap');
+
+/*.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+}
+
+#carone{
+    height: 90vh;
+    object-fit: cover;
+    float: left;
+}
+
+#carone:hover{
+    opacity: 0.9;
+}
+  /* About Me Section */
+  .about{
+    background-image: url('./images/aboutbg.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    padding: 40px 20px;
+  }
+  
+  .about-me .quote {
+    font-style: italic;
+    color: #007bff;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    margin: 20px 0;
+    font-size: 1.3rem;
+  }
+  
+  .social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-links a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Skills Section */
+  .skills {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+  
+  .skills h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  /* Gallery Section */
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Testimonials Section */
+  .testimonials blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .testimonials footer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  /* Call to Action */
+  .cta {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .cta .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skills, .gallery, .testimonials, .cta {
+      padding: 20px;
+    }
+  
+    h2, h3 {
+      font-size: 1.8rem;
+    }
+  
+    .quote {
+      font-size: 1.1rem;
+    }
+  }
+  

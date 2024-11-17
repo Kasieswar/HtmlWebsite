@@ -125,14 +125,123 @@ body{
 }
 
 
-.footer{
-    background-color: rgba(0, 0, 0, 0.842);
+footer {
+    margin-top: auto;
+  }
+
+
+/* Responsive for large tablets and smaller (max-width: 1024px) */
+@media (max-width: 1024px) {
+    #header ul {
+        gap: 5px;
+    }
+    #header img {
+        width: 80px;
+        height: 60px;
+    }
+    #header ul a {
+        width: auto;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #carone {
+        height: 70vh;
+    }
+
+    #par1 .col-8 .h2,
+    #par2 .col-8 .h2,
+    .blog1 h2,
+    .blog1 h3 {
+        font-size: 1.8em;
+    }
+
+    .blog2 .image1, .blog2 .image2, .blog2 .image3 {
+        height: 250px;
+    }
 }
 
-.footer p{
-    color: white;
-    text-align: center;
-    width: 100%;
+/* Responsive for tablets and smaller (max-width: 768px) */
+@media (max-width: 768px) {
+    #header ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .top {
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+
+    #par2 {
+        height: 50vh;
+        background-position: center;
+    }
+
+    .blog1 h2, .blog1 h3 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .blog2 .image1, .blog2 .image2, .blog2 .image3 {
+        height: 200px;
+    }
+
+    .text-con {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    #sec1 {
+        padding: 20px;
+    }
+
+    .bt {
+        width: 150px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive for mobile phones (max-width: 576px) */
+@media (max-width: 576px) {
+    #header img {
+        width: 60px;
+        height: 50px;
+    }
+
+    #header ul a {
+        font-size: 12px;
+        width: 90px;
+        padding: 5px;
+    }
+
+    #carone {
+        height: 50vh;
+    }
+
+    .blog1 h2, .blog1 h3 {
+        font-size: 1.2em;
+    }
+
+    .blog2 .image1, .blog2 .image2, .blog2 .image3 {
+        height: 150px;
+    }
+
+    .text-con {
+        font-size: 12px;
+    }
+
+    .bt {
+        width: 120px;
+        font-size: 12px;
+        height: auto;
+    }
+
+    #sec1 {
+        padding: 10px;
+    }
 }
 
 /*
