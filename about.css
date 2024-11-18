@@ -44,76 +44,184 @@ body{
     opacity: 0.9;
 }
   /* About Me Section */
-  .about{
+.about{
     background-image: url('./images/aboutbg.jpg');
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
     padding: 40px 20px;
-  }
+}
+
+.abouttex{
+  background-color: rgba(255, 255, 255, 0.28);
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+  margin: 30px auto;
+  padding: 40px 20px;
+}
   
-  .about-me .quote {
+.about-me .quote {
     font-style: italic;
     color: #007bff;
     border-left: 4px solid #007bff;
     padding-left: 15px;
     margin: 20px 0;
     font-size: 1.3rem;
-  }
+}
   
-  .social-links a {
+.social-links a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
-  }
+}
   
-  .social-links a:hover {
+.social-links a:hover {
     color: #0056b3;
     text-decoration: underline;
-  }
+}
+
+/*Blog Section*/
+
+.blog1 h2{
+  padding: 25px;
   
-  /* Skills Section */
-  .skills {
-    background-color: #343a40;
-    color: white;
-    padding: 30px 20px;
-    border-radius: 10px;
-  }
+}
+
+.blog1 h3{
+  padding-bottom: 30px;
   
-  .skills h4 {
-    margin-top: 15px;
-    font-size: 1.2rem;
-  }
+}
+
+.blog2 .image1{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative; 
+}
+
+.blog2 .image1::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/couple7.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.blog2 .image1:hover::before{
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.text-con{
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+}
+
+
+
+.blog2 .image2{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative; 
+}
+
+.blog2 .image2::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/men3.jpeg');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.blog2 .image2:hover::before{
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.blog2 .image3{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative; 
+}
+
+.blog2 .image3::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/fam3.jpeg');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.blog2 .image3:hover::before{
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Section */
+
+#sec1{
+  background-color: aquamarine;
+}
+
+#par3 h2{
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bt{
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: auto;
+  width: 200px;
+}
+
+.bt:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px black;
+}
   
-  /* Gallery Section */
-  .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-  }
   
-  .gallery img:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Testimonials Section */
-  .testimonials blockquote {
+/* Testimonials Section */
+.testimonials blockquote {
     font-size: 1.1rem;
     font-style: italic;
     color: #666;
-  }
+}
   
-  .testimonials footer {
+.testimonials footer {
     margin-top: 10px;
     font-size: 0.9rem;
     font-weight: bold;
-  }
+}
   
   /* Call to Action */
   .cta {
-    background-color: #007bff;
+    background-color: black;
     color: white;
     padding: 40px 20px;
   }
